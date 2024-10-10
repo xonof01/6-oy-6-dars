@@ -7,7 +7,7 @@ import { Context } from '../../context/context'
 const SignIn = () => {
   const {token,setToken} = useContext(Context)
   function handleSignInSubmit(e){
-    e.preventdefault()
+    e.preventDefault()
     const data = {
       email:e.target.email.value,
       password:e.target.password.value
