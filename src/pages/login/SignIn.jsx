@@ -33,7 +33,7 @@ const SignIn = () => {
       }
     }
     else{
-      if(data.email == "mubinullakh@gmail.com" && data.password == "123"){
+      if(data.email == "avazxonovfirdavsxon@gmail.com" && data.password == "1234"){
         setTimeout(() => {
           setIsLoading(false)
           setToken(data)
