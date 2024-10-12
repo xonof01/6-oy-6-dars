@@ -26,3 +26,7 @@ body{
 .login-button{
   background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
 }
+.login-button:hover{
+  background: linear-gradient(89.9deg, #FD749B -13.56%, #281AC8 158.3%);
+  transition: 0.3s all;
+}
