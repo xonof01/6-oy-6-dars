@@ -7,12 +7,12 @@ import { Context } from '../../context/context'
 const SignIn = () => {
   const {token,setToken} = useContext(Context)
   function handleSignInSubmit(e){
-    e.preventDefault()
+    e.preventdefault()
     const data = {
       email:e.target.email.value,
       password:e.target.password.value
     }
-    if(data.email == "avazxonovfirdavsxon@gmail.com" && data.password == "7913"){
+    if(data.email == "mubinullakh@gmail.com" && data.password == "123"){
       setToken(data)
     }
   }
