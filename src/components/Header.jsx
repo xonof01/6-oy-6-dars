@@ -5,7 +5,7 @@ import Bell from "../assets/images/bell.svg"
 import { Badge } from 'antd'
 const Header = () => {
   return (
-    <div className='py-[24px] border-b-[2px] border-white px-[65px] flex items-center justify-between'>
+    <div className='w-[100%] py-[24px] border-b-[2px] border-white px-[65px] flex items-center justify-between'>
       <img src={DashboardLogo} alt="dashboard-logo" width={104} height={21} />
       <div className='flex items-center space-x-[77px]'>
         <div className='flex items-center justify-between'>

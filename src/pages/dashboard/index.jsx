@@ -6,5 +6,7 @@ import BitcoinEthereum from "./BitcoinEthereum"
 import Payments from "./Payments"
 import Transactions from "./Transactions"
 import Statistics from "./Statistics"
+import AgentsAdd from "./AgentsAdd";
+import AgentMore from "./AgentMore"
 
-export {Owerview,Users,Agents,Cards,BitcoinEthereum,Payments,Transactions,Statistics}
+export {Owerview,Users,Agents,Cards,BitcoinEthereum,Payments,Transactions,Statistics,AgentsAdd,AgentMore}

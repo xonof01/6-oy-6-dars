@@ -30,3 +30,21 @@ body{
   background: linear-gradient(89.9deg, #FD749B -13.56%, #281AC8 158.3%);
   transition: 0.3s all;
 }
+
+.active{
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+.count-btn{
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  
+}
+
+.search-input{
+  background-image: url("./assets/images/search-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 14px 13px;
+  background-position: 27px center;
+}
+.active-pending{
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+}
